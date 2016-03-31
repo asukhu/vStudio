@@ -1,0 +1,29 @@
+{
+  "name": "Angular2HealthApp",
+  "version": "1.0.0",
+  "description": "Port of AngularJS 1.x Health App to 2.0",
+  "main": "index.js",
+  "scripts": {
+    "tsc" : "tsc -p src -w",
+    "start" : "live-server --open=src"
+  },
+  "keywords": [],
+  "author": "Jeremy Likness",
+  "license": "MIT",
+  "devDependencies": {
+    "live-server": "0.8.2",
+    "typescript": "1.6.2"
+  },
+  "repository": {
+    "type" : "git",
+    "url" : "https://github.com/JeremyLikness/Angular2HealthApp.git"    
+  },
+  "dependencies": {
+    "angular2": "2.0.0-beta.0",
+    "systemjs": "0.19.2",
+    "reflect-metadata": "0.1.2",
+    "es6-shim": "^0.33.3",
+    "rxjs": "5.0.0-beta.0",
+    "zone.js": "0.5.10"
+  }
+}
